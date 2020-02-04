@@ -43,7 +43,7 @@ namespace Modas
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
             app.UseStaticFiles();
-            SeedData.EnsurePopulated(app);
+            //SeedData.EnsurePopulated(app);
         }
     }
 }
